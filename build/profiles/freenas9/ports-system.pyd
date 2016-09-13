@@ -450,6 +450,12 @@ ports += "sysutils/cmdwatch"
 ports += "sysutils/htop"
 ports += "sysutils/mcelog"
 ports += "misc/mc"
+
+ports += "sysutils/nomad"
+ports += "sysutils/consul"
+ports += "sysutils/consul-alerts"
+ports += "security/vault"
+
 if PRODUCT == "TrueNAS":
     ports += "www/grafana2"
 
