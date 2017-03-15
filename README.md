@@ -37,7 +37,7 @@ Compile the source, then generate the .ISO:
 
     # make release PROFILE=profile_type
 
-The vaid profile types are "freenas9" and "freenas10" (see
+The valid profile types are "freenas9" and "corral" (see
 the build/profiles directory).  Instead of specifying PROFILE=profile_type,
 you can set the profile type in the file build/profiles/profile-setting
 (e.g. ```echo freenas9 > build/profiles/profile-setting```).
@@ -47,7 +47,7 @@ directory. :smile:
 
 ## Updating an existing installation
 
-To update an existing FreeNAS 9.10 or 10 instance that you are using for development
+To update an existing FreeNAS 9.10 or Corral instance that you are using for development
 purposes:
 
 * ```make update```
