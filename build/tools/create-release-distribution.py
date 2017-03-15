@@ -103,7 +103,7 @@ def create_json():
         }
     }
 
-    f = open(e("${RELEASE_STAGEDIR}/CHECKSUMS.json"), 'a')
+    f = open(e("${RELEASE_STAGEDIR}/CHECKSUMS.json"), 'w')
     json.dump(json_file, f, indent=4)
     f.close()
 
