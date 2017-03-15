@@ -39,6 +39,7 @@ url = dsl.url
 
 def stage_release():
     sh('mkdir -p ${RELEASE_STAGEDIR}/${BUILD_ARCH_SHORT}')
+    sh('touch ${RELEASE_STAGEDIR}')
     for ext in dsl.formats:
         path = e('${OBJDIR}/${NAME}.${ext}')
         if os.path.exists(path):
