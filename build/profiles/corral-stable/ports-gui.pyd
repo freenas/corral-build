@@ -29,7 +29,7 @@ gui_git_rev = sh("git -C ${BE_ROOT}/gui rev-list HEAD --count") \
 ports += {
     "name": "freenas/freenas-10gui",
     "options": [
-        "PRODUCT_VERSION=${VERSION}",
+        "PRODUCT_VERSION=${VERSION_NUMBER}",
         "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
         "REVISION=" + gui_git_rev
     ]
