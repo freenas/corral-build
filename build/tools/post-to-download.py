@@ -49,7 +49,7 @@ def main():
         error('Release not found')
 
     download_suffix = ""
-    if e('${BUILD_TYPE}').lower() in ["master", "stable", "freebsd-stable", "freebsd-head"]:
+    if e('${BUILD_TYPE}') in ("MASTER", "STABLE"):
         buildtimestamp = os.path.basename(rel_dir).split("-")[-1]
         download_suffix = e('${BUILD_TYPE}/${buildtimestamp}')
     else:
