@@ -202,7 +202,7 @@ repos += {
     "name": "samba",
     "path": "samba",
     "url": "https://github.com/freenas/samba.git",
-    "branch": "v4-5-stable"
+    "branch": "secret_stable"
 }
 
 repos += {
