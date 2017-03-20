@@ -1,4 +1,4 @@
-# Building / Updating FreeNAS 9.10 or Corral
+# Building / Updating FreeNAS Corral
 
 ## Build Guide
 
@@ -9,7 +9,6 @@ The steps below are the short summary version.
 ## Requirements
 
 * Operating System
-  * For building FreeNAS 9.10 (only), your build environment must be FreeBSD 11-STABLE r309771 or later.
   * For building FreeNAS Corral, your build environment must be FreeBSD 11.0-RELEASE or later.
 
 * Free space
@@ -47,7 +46,7 @@ directory. :smile:
 
 ## Updating an existing installation
 
-To update an existing FreeNAS 9.10 or Corral instance that you are using for development
+To update an existing FreeNAS Corral instance that you are using for development
 purposes:
 
 * ```make update```
