@@ -339,6 +339,8 @@ ports += {
 }
 
 ports += "sysutils/sample"
+ports += "sysutils/lsof"
+ports += "sysutils/htop"
 ports += "sysutils/grub2-pcbsd"
 ports += "sysutils/grub2-efi"
 ports += "sysutils/grub2-bhyve"
