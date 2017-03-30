@@ -170,7 +170,6 @@ customize_tasks = [
     "remove-var-cache-pkg",
     "remove-rc-scripts",
     "remove-gcc48",
-    "strip-binaries",
     "install-avatar-conf",
     "link-bash",
     "conf-base"
