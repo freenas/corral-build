@@ -30,16 +30,16 @@ Install the dependencies:
 
 Download and assemble the source code:
 
-    # make checkout PROFILE=profile_type (currently either "corral" for nightlies or "corral-stable" for stable train builds)
+    # make checkout PROFILE=profile_type
 
 Compile the source, then generate the .ISO:
 
     # make release PROFILE=profile_type
 
-The valid profile types are "freenas9" and "corral" (see
-the build/profiles directory).  Instead of specifying PROFILE=profile_type,
-you can set the profile type in the file build/profiles/profile-setting
-(e.g. ```echo freenas9 > build/profiles/profile-setting```).
+The valid profile types are "corral" and "corral-stable" (see
+the build/profiles directory) to build a nightly from the master branch or a stable build from the stable branch, respectively.
+Instead of specifying PROFILE=profile_type, you can also set the profile type in the file build/profiles/profile-setting
+(e.g. ```echo corral > build/profiles/profile-setting```).
 
 Once the build completes successfully, you'll have release bits in the _BE
 directory. :smile:
