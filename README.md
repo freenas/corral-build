@@ -30,7 +30,7 @@ Install the dependencies:
 
 Download and assemble the source code:
 
-    # make checkout PROFILE=profile_type
+    # make checkout PROFILE=profile_type (currently either "corral" for nightlies or "corral-stable" for stable train builds)
 
 Compile the source, then generate the .ISO:
 
