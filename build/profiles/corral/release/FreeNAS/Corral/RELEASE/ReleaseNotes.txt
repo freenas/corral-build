@@ -1,0 +1,19 @@
+## FreeNAS Corral Release
+
+Thank you for installing FreeNAS Corral RELEASE!
+
+The FreeNAS Development team is very happy to announce the launch of FreeNAS 10 RELEASE and, at the same time, the renaming of "10" to "Corral", a new name befitting what is also a radically new version of FreeNAS!
+
+With all of the new features in FreeNAS 10, as well as its entirely new look, we decided that just slapping a "10" into the release string simply didn"t do justice to the giant evolutionary step we took with this release, nor has the version numbering scheme we've been using been increasingly accurate, since we stopped basing our release numbers on that of the underlying FreeBSD OS. "FreeNAS Corral" provides a more holistic description of this release and sets it apart from previous FreeNAS versions: It manages storage, containers, and VM services through one unified interface, making it the most powerful FreeNAS release yet. So, what you knew as FreeNAS 10 is now FreeNAS Corral!
+
+We also want to stress that we did not create FreeNAS Corral in a vacuum. It was a collaborative effort between the FreeNAS development team and literally thousands of users. We listened to your feedback in the form of thousands of tickets, and your feedback made the product immeasurably better. We hope and expect that process to remain a vital part of continuing this journey because FreeNAS Corral remains 100% Open Source and has all the same features as FreeNAS 10, it's simply a new brand to describe this effort going forward.
+
+If you find something that you think we can do better, we want to hear about it!The FreeNAS Corral development team will review and respond to every ticket that you open on <a href="https://bugs.freenas.org/projects/freenas-10">the bug tracker</a>
+
+Please also keep an eye out for our Youtube video tutorial series on how to use various features of FreeNAS Corral; they will be posted in the days following this release.
+
+To also talk about FreeNAS 9 for a moment: Many users are currently happy with FreeNAS 9.10 and expressed a desire to stick with it. That is totally fine, and we will continue to support FreeNAS 9.10 for a long time to come - as long as there is an audience for this technology, we will continue to release fixes and updates as appropriate.  If you are running FreeNAS 9.10 you can also upgrade straight to FreeNAS Corral at any point without losing your previous 9.10 environment.
+
+To upgrade, select the FreeNAS-Corral-STABLE train from the Update tab of the FreeNAS 9.10 GUI or install FreeNAS Corral from the ISO image and pick the option to install into a new Boot Environment. Either option will allow you to roll backwards and forwards between 9 and Corral at your leisure, just like any other update, because from the perspective of the updater, that's exactly what it is!
+
+Welcome aboard the Corral train!
