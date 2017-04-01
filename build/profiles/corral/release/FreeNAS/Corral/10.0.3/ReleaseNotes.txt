@@ -1,0 +1,12 @@
+## FreeNAS Corral 10.0.3 Updates
+
+Welcome to the third minor point release of FreeNAS Corral!
+
+Updates of note in this release (culled from the usual array of resolved
+tickets).
+
+* Active Directory ID mappings are now configurable in the CLI. New Active Directory configurations use same ID ranges as FreeNAS 9.10, thus are entirely compatible. Existing setups need manual adjustment using CLI.
+* VM VGA consoles now work with HTTPs and custom Web UI ports
+* Automatic removal of expired snapshot is fixed
+* Multiple issues related to NFSv4 and Kerberos have been fixed
+* Issue with Web UI not starting after setting up custom bind IP addresses has been fixed
