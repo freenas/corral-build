@@ -6,6 +6,13 @@ Updates of note in this release (culled from the usual array of resolved
 tickets).
 
 * Active Directory ID mappings are now configurable in the CLI. New Active Directory configurations use same ID ranges as FreeNAS 9.10, thus are entirely compatible. Existing setups need manual adjustment using CLI.
+
+  Example, assumes that directory name is `my_ad`:
+  
+  ```account directoryservice directories my_ad properties idmap set rid_start=20000```
+  
+  (20000 is the typical value of `rid_start` in FreeNAS 9.)
+
 * VM VGA consoles now work with HTTPs and custom Web UI ports
 * Automatic removal of expired snapshot is fixed
 * Multiple issues related to NFSv4 and Kerberos have been fixed
