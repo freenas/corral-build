@@ -5,6 +5,8 @@ Welcome to the third minor point release of FreeNAS Corral!
 Updates of note in this release (culled from the usual array of resolved
 tickets).
 
+* Migration of iSCSI shares from 9.10 to Corral fully works now!  Yay!  If you previously rolled back to 9.10 because of this, you might try this update.  Also fixed a few other 9->Corral migration tickets, so migration in general is much better now.
+
 * Active Directory ID mappings are now configurable in the CLI. New Active Directory configurations use same ID ranges as FreeNAS 9.10, thus are entirely compatible. Existing setups need manual adjustment using CLI.
 
   Example, assumes that directory name is `my_ad`:
@@ -22,5 +24,7 @@ tickets).
 * Fixed NFS maproot / mapall UI regression
 * Fixed GUI regression in creating LAGGs
 * Fixed group creation UI
+* Fixed some bugs in encrypted volume unlock UI
+* Additional GUI seatbelts added to yell at people more before deleting things, and to make shutdown / reboot a little harder to do accidentally.
 
 (For full list of tickets fixed, see the ChangeLog)
