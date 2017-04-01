@@ -17,3 +17,10 @@ tickets).
 * Automatic removal of expired snapshot is fixed
 * Multiple issues related to NFSv4 and Kerberos have been fixed
 * Issue with Web UI not starting after setting up custom bind IP addresses has been fixed
+* Bug allowing Container ports to overlap with host ports (like 80!) has been fixed.  This may explain some of the "hey, my GUI went away!" tickets.
+* Fixed bug where updating docker containers broke them.
+* Fixed NFS maproot / mapall UI regression
+* Fixed GUI regression in creating LAGGs
+* Fixed group creation UI
+
+(For full list of tickets fixed, see the ChangeLog)
