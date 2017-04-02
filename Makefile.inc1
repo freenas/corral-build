@@ -167,6 +167,9 @@ release-push: update-push
 update-push:
 	@${BUILD_TOOLS}/post-to-upgrade.py
 
+update-rollback-int:
+	ssh releng@update-master.freenas.org freenas-release rollback ${TRAIN}
+
 update-rollback:
 	ssh sef@update-master.freenas.org freenas-release rollback ${TRAIN}
 
