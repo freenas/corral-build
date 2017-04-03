@@ -171,6 +171,7 @@ customize_tasks = [
     "remove-rc-scripts",
     "remove-gcc48",
     "install-avatar-conf",
+    "install-nsswitch-conf",
     "link-bash",
     "conf-base"
 ]
