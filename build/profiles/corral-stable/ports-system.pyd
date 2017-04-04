@@ -87,6 +87,7 @@ ports += {
 }
 ports += "net/vblade"
 ports += "net-mgmt/clog"
+ports += "net-mgmt/netdata"
 ports += "ftp/lftp"
 ports += {
     "name": "net/openldap24-sasl-client",
