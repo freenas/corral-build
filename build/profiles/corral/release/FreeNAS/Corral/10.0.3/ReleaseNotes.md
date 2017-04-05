@@ -17,6 +17,7 @@ tickets).
 
 * VM VGA consoles now work with HTTPs and custom Web UI ports
 * Automatic removal of expired snapshot is fixed
+* Re-added netdata service for charting / viewing performance (see service CLI)
 * Multiple issues related to NFSv4 and Kerberos have been fixed
 * Issue with Web UI not starting after setting up custom bind IP addresses has been fixed
 * Bug allowing Container ports to overlap with host ports (like 80!) has been fixed.  This may explain some of the "hey, my GUI went away!" tickets.
@@ -26,5 +27,6 @@ tickets).
 * Fixed group creation UI
 * Fixed some bugs in encrypted volume unlock UI
 * Additional GUI seatbelts added to yell at people more before deleting things, and to make shutdown / reboot a little harder to do accidentally.
-
+* Fixed file downloads with firefox
+* 
 (For full list of tickets fixed, see the ChangeLog)
