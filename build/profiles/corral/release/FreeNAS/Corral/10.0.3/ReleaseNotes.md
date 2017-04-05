@@ -15,6 +15,7 @@ tickets).
   
   (20000 is the typical value of `rid_start` in FreeNAS 9.)
 
+* Several important UI fixes for encrypted volumes management
 * VM VGA consoles now work with HTTPs and custom Web UI ports
 * Automatic removal of expired snapshot is fixed
 * Re-added netdata service for charting / viewing performance (see service CLI)
@@ -28,5 +29,6 @@ tickets).
 * Fixed some bugs in encrypted volume unlock UI
 * Additional GUI seatbelts added to yell at people more before deleting things, and to make shutdown / reboot a little harder to do accidentally.
 * Fixed file downloads with firefox
-* 
+* Improved performance with firefox
+ 
 (For full list of tickets fixed, see the ChangeLog)
