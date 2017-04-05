@@ -16,6 +16,7 @@ tickets).
   (20000 is the typical value of `rid_start` in FreeNAS 9.)
 
 * Several important UI fixes for encrypted volumes management
+* Fixes to Directory Services UI: Can modify search path, remove configuration
 * VM VGA consoles now work with HTTPs and custom Web UI ports
 * Automatic removal of expired snapshot is fixed
 * Re-added netdata service for charting / viewing performance (see service CLI)
