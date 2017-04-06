@@ -5,7 +5,12 @@ Welcome to the third minor point release of FreeNAS Corral!
 Updates of note in this release (culled from the usual array of resolved
 tickets).
 
-* Migration of iSCSI shares from 9.10 to Corral fully works now!  Yay!  If you previously rolled back to 9.10 because of this, you might try this update.  Also fixed a few other 9->Corral migration tickets, so migration in general is much better now.
+* Migration fixes (If you were holding off from ugrading to Corral or rolled back to 9.10 for any of these reasons, please give this update a try and let us know)
+  * Migration of iSCSI shares from 9.10 to Corral fully works now!  
+  * Migration of non-dataset (directory based) shares for nfs, afp, smb, and webdav was broken and is fixed in this update. So please retry the 9.x to Corral upgrade again.
+  * While migrating a passphraseless encrypted volume from 9.x to Corral, the auto-unlock feature post first/every boot is now migrated.
+  * Also fixed a few other 9->Corral migration tickets, so migration in general is much better and more robust now.
+* If you had your webui bound to an ip (either you had this in 9.x or you did this on a fresh install), the webui would not come back up post a reboot (or post 9.x to Corral migration). This is now fixed.
 
 * Active Directory ID mappings are now configurable in the CLI. New Active Directory configurations use same ID ranges as FreeNAS 9.10, thus are entirely compatible. Existing setups need manual adjustment using CLI.
 
