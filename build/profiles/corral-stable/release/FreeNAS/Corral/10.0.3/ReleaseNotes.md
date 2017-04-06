@@ -1,9 +1,8 @@
-## FreeNAS Corral 10.0.3 Updates
+## FreeNAS Corral 10.0.3 Update series
 
 Welcome to the third minor point release of FreeNAS Corral!
 
-Updates of note in this release (culled from the usual array of resolved
-tickets).
+Updates of note in this release (culled from the usual array of resolved tickets).
 
 * Migration fixes (If you were holding off from ugrading to Corral or rolled back to 9.10 for any of these reasons, please give this update a try and let us know)
   * Migration of iSCSI shares from 9.10 to Corral fully works now!  
