@@ -1,0 +1,8 @@
+#!/bin/sh
+
+case "${CURRENT_VERSION}"
+in
+	FreeNAS-9.*) echo "Cannot upgrade from FreeNAS 9.x to Corral" 1>&2 ; exit 1 ;;
+esac
+exit 0
+
